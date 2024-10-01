@@ -1,6 +1,6 @@
 <?php if (isset($_POST['login'])) {
-	$email = $_POST['email'];
-	$pass = $_POST['pass'];
+	$email = $_POST['Email'];
+	$pass = $_POST['Password'];
 
 	$file ="donnes.txt";
 
